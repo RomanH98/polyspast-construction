@@ -1,0 +1,20 @@
+
+
+html,
+body {
+    height: 100%;
+    font-family: Yandex Sans, serif !important;
+
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+}
+@font-face {
+    font-family: "Yandex Sans";
+    src: url("./fonts/YandexSansDisplay-Regular.ttf");
+}

@@ -1,0 +1,34 @@
+{
+  "name": "polyplast-costruction",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.1.0",
+    "@popperjs/core": "^2.11.8",
+    "@vorms/core": "^1.1.0",
+    "bootstrap": "^5.3.2",
+    "gsap": "^3.12.5",
+    "mitt": "^3.0.1",
+    "swiper": "^11.0.5",
+    "vue": "^3.3.11",
+    "vue-final-modal": "^4.5.3",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.3.3",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.3",
+    "vite": "^5.0.10"
+  }
+}
